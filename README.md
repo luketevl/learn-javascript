@@ -130,6 +130,41 @@ m.set('lukete', 25);
 # MODULES
 > Small, one function. Helpt with manutenabilit. Namespacing local. Reusability
 
+## IMPORT
+- Structure `import method from library;
+- Forms to use import
+  - ```*``` call all methods
+  - ```methodName```  or ```{ methodName }``` call specific method
+    - use without **{ }** IF export is UNIQUE.
+  - ```as``` define alias 
+  - Using **alias**
+```javascript
+import * as Alias from lib;
+Alias.method();
+
+import { methodName } from lib;
+methodName();
+```
+
+## EXPORT
+- Any *export** pear file
+  - import with **same name**
+  - import required use **{}**
+```javascript
+export function name1(){};
+export function name2(){};
+function name3(){};
+function name4(){};
+export { name3, name4 }
+```
+- Only _ONE_ export **default** pear file
+  - import with any name
+  - import without use **{}**
+```javascript
+export default name;
+```
+
+
 
 
 # Observations
@@ -138,3 +173,5 @@ m.set('lukete', 25);
   - _Only run_ in **changed** files
 - **WeakMap**
   - garbacolletion delete automatic 
+- **EXPORT**
+  - **Alias** are optional.
