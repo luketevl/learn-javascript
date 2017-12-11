@@ -1,6 +1,10 @@
 # learn-javascript
 Learn about Javascript(es6, es7) and future versions
 
+# LINKS
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+- http://exploringjs.com/es6/ch_modules.html
+- https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc#.b592lxm37
 
 # Promise
 - Resolve all promises
