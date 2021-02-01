@@ -1,3 +1,5 @@
+// Immutable Variable
+
 const name = 'LUKETEVL';
 
 // error
