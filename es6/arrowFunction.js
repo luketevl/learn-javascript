@@ -6,8 +6,9 @@ const peoples = [
     age: 27
   }
 ] 
-const names = peoples.map( people => people.name )
 
+// new
+const names = peoples.map( people => people.name )
 
 // old
 const namesFn = peoples.map( fuction(people) {

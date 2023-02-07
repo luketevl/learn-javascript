@@ -1,0 +1,2 @@
+- https://www.syncfusion.com/blogs/post/top-6-javascript-es12-features-you-should-use.aspx
+- https://www.educative.io/answers/what-are-logical-assignment-operators-in-javascript
